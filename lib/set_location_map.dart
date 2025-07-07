@@ -14,6 +14,8 @@ import 'firebase_connections/firestore_error_messages.dart';
 
 import 'custom_widgets/cf_detail_tile.dart';
 
+import 'package:ntp/ntp.dart';
+
 class Room {
   List<Offset> roomVertices;
   String roomName;
@@ -119,7 +121,7 @@ class SetLocationMapWidgetState extends State<SetLocationMap> {
           .update({
         'rfid_location': location,
         'in_room': inRoom,
-        'last_location_entry': Timestamp.now()
+        'last_location_entry': await NTP.now()
       });
 
       return inRoom;
@@ -772,7 +774,7 @@ class MapPainter extends CustomPainter {
         oldDelegate.yposition != yposition ||
         oldDelegate.scale != scale ||
         oldDelegate.roomsOnFloor != roomsOnFloor ||
-        oldDelegate.eventDetails != eventDetails ||  
+        oldDelegate.eventDetails != eventDetails ||
         oldDelegate.roomClicked != roomClicked;
   }
 }

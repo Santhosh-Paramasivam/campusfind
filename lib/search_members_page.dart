@@ -21,6 +21,8 @@ import 'custom_widgets/cf_toast.dart';
 
 import 'firebase_connections/firestore_error_messages.dart';
 
+import 'package:ntp/ntp.dart';
+
 class Member {
   late String name;
   late String rfidLocation;
@@ -114,7 +116,7 @@ class _MemberSearchPageState extends State<MemberSearchPage> {
   void initTimer() {
     if (timer != null && timer!.isActive) return;
 
-    timer = Timer.periodic(const Duration(seconds: 10), (timer) async {
+    timer = Timer.periodic(const Duration(seconds: 1), (timer) async {
       setState(() {});
       if (await checkInternet()) {
         if (!prevInternetConnected) {
@@ -244,7 +246,7 @@ class MemberDetails extends StatelessWidget {
   final Member member;
   final Map<String, dynamic> personDetails;
 
-  const MemberDetails({super.key, required this.member, required this.personDetails});
+  MemberDetails({super.key, required this.member, required this.personDetails});
 
   List<Widget> buildDetails() {
     List<Widget> detailsList = <Widget>[];
@@ -277,18 +279,36 @@ class MemberDetails extends StatelessWidget {
 
 class CampusFindTime {
   static String getDifferenceFromNowTimestamp(Timestamp timestamp) {
-    Duration timeDifference = DateTime.now().difference(timestamp.toDate());
+    DateTime firestoreTime = timestamp.toDate().toUtc();
+
+    DateTime? now;
+
+    Future.delayed(Duration.zero, () async {
+      now = await NTP.now();
+    });
+
+    if (now == null) {
+      now = DateTime.now().toUtc();
+    }
+
+    print("Firestore Time (UTC): $firestoreTime");
+    print("Current Time (UTC): $now");
+
+    if (firestoreTime.isAfter(now!)) {
+      return "0 sec ago";
+    }
+
+    Duration timeDifference = now!.difference(firestoreTime);
+
     int totalTimeInSeconds = timeDifference.inSeconds;
 
     int h = totalTimeInSeconds ~/ 3600;
-
-    int m = timeDifference.inMinutes - h * 60;
-
-    int s = timeDifference.inSeconds - (m * 60 + h * 3600);
+    int m = (timeDifference.inMinutes - h * 60);
+    int s = (timeDifference.inSeconds - (m * 60 + h * 3600));
 
     if (h == 0 && m == 0) {
       if (s < 0) {
-        return "${s + 1} sec ago";
+        return "0 sec ago";
       } else {
         return "$s sec ago";
       }
@@ -301,3 +321,8 @@ class CampusFindTime {
     return "$h hours $m min $s sec ago";
   }
 }
+
+
+
+
+
