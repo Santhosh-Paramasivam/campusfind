@@ -25,7 +25,7 @@ In the meantime, feel free to check out its video demos on youtube:
 
 ### CampusFind IoT Demo (#3)
 
-[![CampusFind Demo #2]((https://img.youtube.com/vi/4jW771IBFp0/0.jpg))](https://www.youtube.com/watch?v=4jW771IBFp0)
+[![CampusFind IoT Demo #3]((github/campusfind-iot-demo-#3-thumbnail.jpg))](https://www.youtube.com/watch?v=4jW771IBFp0)
 
 ## CampusFind offers a seamless way to
 
