@@ -2,6 +2,8 @@
 
 A cross-platform mobile app to locate particular individuals across large campuses
 
+![image](github/campusfind-demo-2.gif)
+
 ## Motivation
 
 After having to spend hours looking for professors and heads of departments
