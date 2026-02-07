@@ -19,9 +19,13 @@ This is because institutions are registered and users are added through the **Ca
 
 In the meantime, feel free to check out its video demos on youtube:
 
-#### CampusFind Demo #2
+### CampusFind Demo #2
 
 [![CampusFind Demo #2](github/campusfind-demo-2-thumbnail.png)](https://www.youtube.com/watch?v=Pch4oz6hjPw)
+
+### CampusFind IoT Demo (#3)
+
+[![CampusFind Demo #2]((https://img.youtube.com/vi/4jW771IBFp0/0.jpg))](https://www.youtube.com/watch?v=4jW771IBFp0)
 
 ## CampusFind offers a seamless way to
 
@@ -42,8 +46,6 @@ In the meantime, feel free to check out its video demos on youtube:
 - [RFID-Flask-Backend](https://github.com/Santhosh-Paramasivam/campusfind-checkin-backend)
 - [CampusFind-Admin-Backend](https://github.com/Santhosh-Paramasivam/CampusFind-Admin_Backend)
 - [CampusFind-Admin-Frontend](https://github.com/Santhosh-Paramasivam/CampusFind-Admin_Backend)
-
-## Installation
 
 ## Contact
 
