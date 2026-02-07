@@ -2,14 +2,22 @@
 
 A cross-platform mobile app to locate particular individuals across large campuses
 
-![image](github/campusfind-demo-2.gif)
-
 ## Motivation
 
 After having to spend hours looking for professors and heads of departments
 on busy days for signatures and permissions across my huge then-college campus, 
 I created an app where you can look up the location of individuals in an institution 
 with only a couple of taps on your mobile device!
+
+## Quick Start
+
+A download link is currently unavailable!
+
+This is because institutions are registered and users are added through the **CampusFind Admin Website**, which is currently under development.
+
+In the meantime, feel free to check out its video demos on youtube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Pch4oz6hjPw?si=WbcvDC1xt-_r5imQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## CampusFind offers a seamless way to
 
@@ -32,10 +40,6 @@ with only a couple of taps on your mobile device!
 - [CampusFind-Admin-Frontend](https://github.com/Santhosh-Paramasivam/CampusFind-Admin_Backend)
 
 ## Installation
-
-Institutions are created and users are added through the **CampusFind Admin Website**, which is currently under development. At this time, users cannot sign up directly from the Flutter app.
-
-As such, a download link is unavailable until further updates.
 
 ## Contact
 
