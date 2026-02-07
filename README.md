@@ -1,15 +1,13 @@
-# CampusFind - Quickly Locate Fellow Employees and Teammates
+# CampusFind
 
-## The Problem
+A cross-platform mobile app to locate particular individuals across large campuses
 
-Have you ever spent valuable time searching for a teammate across a sprawling
-institution? Phone calls and messages often interrupt workflows, while coordinating large teams quickly can feel impossible.
+## Motivation
 
-## The Solution
-
-After having to spend hours looking for professors and heads of departments a
-on busy days for signatures and permissions, I created an app where
-you can look up people in an institution with a couple taps on your mobile device!
+After having to spend hours looking for professors and heads of departments
+on busy days for signatures and permissions across my huge then-college campus, 
+I created an app where you can look up the location of individuals in an institution 
+with only a couple of taps on your mobile device!
 
 ## CampusFind offers a seamless way to
 
