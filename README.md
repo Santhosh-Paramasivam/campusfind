@@ -17,7 +17,7 @@ This is because institutions are registered and users are added through the **Ca
 
 In the meantime, feel free to check out its video demos on youtube:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pch4oz6hjPw?si=WbcvDC1xt-_r5imQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Video Title](https://img.youtube.com/vi/Pch4oz6hjPw/0.jpg)](https://www.youtube.com/watch?v=Pch4oz6hjPw)
 
 ## CampusFind offers a seamless way to
 
