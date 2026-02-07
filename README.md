@@ -19,7 +19,7 @@ In the meantime, feel free to check out its video demos on youtube:
 
 ### CampusFind Demo #2
 
-[![CampusFind Demo #2](https://img.youtube.com/vi/Pch4oz6hjPw/0.jpg)](https://www.youtube.com/watch?v=Pch4oz6hjPw)
+[![CampusFind Demo #2](github/campusfind-demo-2-thumbnail.png)](https://www.youtube.com/watch?v=Pch4oz6hjPw)
 
 ## CampusFind offers a seamless way to
 
