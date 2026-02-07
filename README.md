@@ -2,6 +2,8 @@
 
 A cross-platform mobile app to locate particular individuals across large campuses
 
+![image](github/campusfind-demo-2.gif)
+
 ## Motivation
 
 After having to spend hours looking for professors and heads of departments
@@ -17,7 +19,7 @@ This is because institutions are registered and users are added through the **Ca
 
 In the meantime, feel free to check out its video demos on youtube:
 
-### CampusFind Demo #2
+#### CampusFind Demo #2
 
 [![CampusFind Demo #2](github/campusfind-demo-2-thumbnail.png)](https://www.youtube.com/watch?v=Pch4oz6hjPw)
 
