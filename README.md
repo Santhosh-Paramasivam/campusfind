@@ -23,11 +23,11 @@ In the meantime, feel free to check out its video demos on youtube:
 
 [![CampusFind Demo #2](github/campusfind-demo-2-thumbnail.png)](https://www.youtube.com/watch?v=Pch4oz6hjPw)
 
-### CampusFind IoT Demo (#3)
+### CampusFind IoT Demo #3
 
 [![CampusFind IoT Demo #3](github/campusfind-iot-demo-thumbnail.jpg)](https://www.youtube.com/watch?v=4jW771IBFp0)
 
-## CampusFind offers a seamless way to
+## Usage
 
 - **Instantly locate colleagues**: View real-time, interactive floor maps that guide you directly to your colleagues’ locations.
 - **Set and update your location**: Easily share your whereabouts with others so they know where to find you.
@@ -39,7 +39,7 @@ In the meantime, feel free to check out its video demos on youtube:
 
 ![image](github/architecture.jpg)
 
-### Github links to components
+### Project component repositories
 
 - The current repository contains code for the client-side mobile app
 - [RFID-Station-Arduino](https://github.com/Santhosh-Paramasivam/CampusFind-RFIDStation)
@@ -47,8 +47,57 @@ In the meantime, feel free to check out its video demos on youtube:
 - [CampusFind-Admin-Backend](https://github.com/Santhosh-Paramasivam/CampusFind-Admin_Backend)
 - [CampusFind-Admin-Frontend](https://github.com/Santhosh-Paramasivam/CampusFind-Admin_Backend)
 
+## Contributing
+
+### Install dependencies
+
+(The following steps apply to running campusfind as a mobile app)
+
+- Install a recent version of flutter
+- Install android studio
+- Install a recent android SDK (through android studio)
+
+- Run the following command to see if the dependencies are present and available to flutter:
+
+``` bash
+flutter doctor
+```
+
+### Clone the repo
+
+``` bash
+git clone https://github.com/Santhosh-Paramasivam/campusfind.git
+cd campusfind
+```
+
+### Install and update dependencies
+
+``` bash
+flutter pub get
+flutter pub update
+```
+
+### Run the development server
+
+``` bash
+flutter run
+```
+
+### Build project
+
+``` bash
+flutter build
+```
+
+### Submit a pull request
+
+If you'd like to contribute, please fork the project and open a pull request.
+
+Thanks in advance!
+
 ## Contact
 
 [LinkedIn](www.linkedin.com/in/santhosh-paramasivam-2a430a267)
+[Email](mailto:santhoshparamasivam78@gmail.com)
 
-Submit an issue here on Github
+If you notice any bugs or want to suggest any improvements, please *open an issue* here on Github
